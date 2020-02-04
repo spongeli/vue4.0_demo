@@ -1,0 +1,69 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.v-f,
+.v-f-c,
+.v-f-s,
+.v-f-ss,
+.v-fc,
+.v-fc-s {
+	display: flex;
+}
+
+.v-f-c {
+	justify-content: center;
+	align-items: center;
+}
+
+.v-fc,
+.v-fc-s {
+	flex-direction: column;
+}
+
+.v-fc-s {
+	justify-content: space-between;
+}
+
+.v-f-s {
+	justify-content: space-between;
+}
+
+.v-f-ss {
+	justify-content: space-around;
+}
+
+.mtp30 {
+	margin-top: 30px;
+}
+
+.mtp15 {
+	margin-top: 15px;
+}
+
+.mtp10 {
+	margin-top: 10px;
+}
+
+.mtp5 {
+	margin-top: 5px;
+}
+
+.mtp20 {
+	margin-top: 20px;
+}
+
+
+/* 公共标题 */
+.noclick {
+	pointer-events: none;
+	opacity: .5;
+}
+
+.cursor {
+	cursor: pointer;
+}
